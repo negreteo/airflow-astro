@@ -1,0 +1,29 @@
+[0m12:47:52.565991 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x102d7d510>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104adbd90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104adb8b0>]}
+
+
+============================== 12:47:52.575071 | 25f41d9a-9487-4e0c-a641-aaa9c892d52d ==============================
+[0m12:47:52.575071 [info ] [MainThread]: Running with dbt=1.7.8
+[0m12:47:52.576220 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'logs', 'profiles_dir': '/Users/negreteo/.dbt', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt init', 'static_parser': 'True', 'log_format': 'default', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m12:47:58.089001 [error] [MainThread]: Encountered an error:
+
+[0m12:47:58.094422 [error] [MainThread]: Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/dbt/cli/requires.py", line 91, in wrapper
+    result, success = func(*args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/dbt/cli/requires.py", line 76, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/dbt/cli/main.py", line 515, in init
+    results = task.run()
+  File "/usr/local/lib/python3.10/site-packages/dbt/task/init.py", line 322, in run
+    project_name = self.get_valid_project_name()
+  File "/usr/local/lib/python3.10/site-packages/dbt/task/init.py", line 276, in get_valid_project_name
+    name = click.prompt("Enter a name for your project (letters, digits, underscore)")
+  File "/usr/local/lib/python3.10/site-packages/click/termui.py", line 164, in prompt
+    value = prompt_func(prompt)
+  File "/usr/local/lib/python3.10/site-packages/click/termui.py", line 147, in prompt_func
+    raise Abort() from None
+click.exceptions.Abort
+
+[0m12:47:58.098066 [debug] [MainThread]: Resource report: {"command_name": "init", "command_wall_clock_time": 5.6532564, "process_user_time": 3.595848, "process_kernel_time": 0.581438, "process_mem_max_rss": "92930048", "command_success": false, "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m12:47:58.100119 [debug] [MainThread]: Command `dbt init` failed at 12:47:58.099789 after 5.66 seconds
+[0m12:47:58.100970 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x102d7d510>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104adb8b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104adab30>]}
+[0m12:47:58.101986 [debug] [MainThread]: Flushing usage events

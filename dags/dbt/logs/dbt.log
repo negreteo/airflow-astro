@@ -1,0 +1,72 @@
+[0m10:41:55.654377 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1115a27a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x113247e50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x113247970>]}
+
+
+============================== 10:41:55.662112 | 934ed217-ad40-4b80-adce-622034dc0263 ==============================
+[0m10:41:55.662112 [info ] [MainThread]: Running with dbt=1.7.8
+[0m10:41:55.663093 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/negreteo/.dbt', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'logs', 'debug': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'static_parser': 'True', 'invocation_command': 'dbt init', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m10:42:02.297350 [debug] [MainThread]: Starter project path: /usr/local/lib/python3.10/site-packages/dbt/include/starter_project
+[0m10:42:02.329560 [info ] [MainThread]: 
+Your new dbt project "cosmosproject" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m10:42:02.330310 [info ] [MainThread]: Setting up your profile.
+[0m11:01:58.720032 [info ] [MainThread]: Profile cosmosproject written to /Users/negreteo/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m11:01:59.131750 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 1203.5598, "process_user_time": 4.294627, "process_kernel_time": 0.863983, "process_mem_max_rss": "114188288", "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m11:01:59.132959 [debug] [MainThread]: Command `dbt init` succeeded at 11:01:59.132692 after 1203.56 seconds
+[0m11:01:59.133707 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1115a27a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x113246890>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x113247d30>]}
+[0m11:01:59.134443 [debug] [MainThread]: Flushing usage events
+[0m11:01:59.475000 [debug] [MainThread]: Error sending anonymous usage statistics. Disabling tracking for this execution. If you wish to permanently disable tracking, see: https://docs.getdbt.com/reference/global-configs#send-anonymous-usage-stats.
+[0m12:49:03.987241 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10acd30a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10ca2fee0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10ca2fa00>]}
+
+
+============================== 12:49:03.994304 | 472b81b8-b71d-466a-87ad-e8c19577ff4d ==============================
+[0m12:49:03.994304 [info ] [MainThread]: Running with dbt=1.7.8
+[0m12:49:03.995529 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'logs', 'version_check': 'True', 'profiles_dir': '/Users/negreteo/.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt init', 'introspect': 'True', 'static_parser': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m12:49:07.134587 [info ] [MainThread]: A project called cosmosproject already exists here.
+[0m12:49:07.137455 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 3.2564917, "process_user_time": 3.53899, "process_kernel_time": 0.418682, "process_mem_max_rss": "92753920", "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m12:49:07.138772 [debug] [MainThread]: Command `dbt init` succeeded at 12:49:07.138472 after 3.26 seconds
+[0m12:49:07.139604 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10acd30a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10ca2fa00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10ca2fe20>]}
+[0m12:49:07.140353 [debug] [MainThread]: Flushing usage events
+[0m12:49:07.442543 [debug] [MainThread]: Error sending anonymous usage statistics. Disabling tracking for this execution. If you wish to permanently disable tracking, see: https://docs.getdbt.com/reference/global-configs#send-anonymous-usage-stats.
+[0m12:53:00.800027 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106f578b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108cb3e80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108cb39a0>]}
+
+
+============================== 12:53:00.809444 | cfb46cd5-3648-4402-83d6-fae5f074415a ==============================
+[0m12:53:00.809444 [info ] [MainThread]: Running with dbt=1.7.8
+[0m12:53:00.810676 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/negreteo/.dbt', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'logs', 'warn_error': 'None', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt init', 'static_parser': 'True', 'introspect': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m12:53:05.626486 [debug] [MainThread]: Starter project path: /usr/local/lib/python3.10/site-packages/dbt/include/starter_project
+[0m12:53:05.646901 [info ] [MainThread]: 
+Your new dbt project "cosmosproject" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m12:53:05.648168 [info ] [MainThread]: Setting up your profile.
+[0m12:55:12.330500 [info ] [MainThread]: Profile cosmosproject written to /Users/negreteo/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m12:55:12.334749 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 131.64758, "process_user_time": 4.261965, "process_kernel_time": 0.827477, "process_mem_max_rss": "113618944", "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m12:55:12.335890 [debug] [MainThread]: Command `dbt init` succeeded at 12:55:12.335623 after 131.65 seconds
+[0m12:55:12.336611 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106f578b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108cb2890>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108cb3d60>]}
+[0m12:55:12.337380 [debug] [MainThread]: Flushing usage events
+[0m12:55:12.707076 [debug] [MainThread]: Error sending anonymous usage statistics. Disabling tracking for this execution. If you wish to permanently disable tracking, see: https://docs.getdbt.com/reference/global-configs#send-anonymous-usage-stats.
