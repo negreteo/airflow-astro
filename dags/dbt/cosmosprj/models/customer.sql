@@ -1,0 +1,7 @@
+SELECT 
+ID 
+,FIRST_NAME
+,LAST_NAME
+,BIRTHDATE
+,MEMBERSHIP_NO
+FROM {{ ref('customers') }}
